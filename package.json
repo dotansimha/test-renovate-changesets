@@ -2,6 +2,11 @@
   "name": "test",
   "version": "1.0.0",
   "dependencies": {
-    "graphql": "^16.2.0"
+    "notion-to-md": "2.5.4"
+  },
+  "peerDependencies": {
+    "graphql": "^15",
+    "lodash": "4.17.21",
+    "cross-undici-fetch": "0.4.14"
   }
 }
