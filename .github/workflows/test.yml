@@ -1,0 +1,22 @@
+name: Renovate Changeset
+on:
+  pull_request:
+    types: [labeled, synchronize]
+    
+jobs:
+  changeset:
+    if: ${{ github.event.label.name == 'dependencies' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Use NodeJS
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+
+      - name: Create/Update Changesets
+        uses: 'the-guild-org/changesets-snapshot-action@main'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
