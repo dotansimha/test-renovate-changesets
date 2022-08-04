@@ -2,7 +2,7 @@ name: dependencies
 on: pull_request  
 jobs:
   changeset:
-    if: ${{ github.event.label.name == 'dependencies' }}
+#     if: ${{ github.event.label.name == 'dependencies' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
