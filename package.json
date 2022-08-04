@@ -6,6 +6,7 @@
   },
   "peerDependencies": {
     "graphql": "^15",
-    "lodash": "4.17.21"
+    "lodash": "4.17.21",
+    "cross-undici-fetch": "0.4.14"
   }
 }
