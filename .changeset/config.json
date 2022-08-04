@@ -1,0 +1,6 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@2.1.0/schema.json",
+  "linked": [],
+  "access": "public",
+  "baseBranch": "main"
+}
