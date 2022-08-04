@@ -8,3 +8,4 @@
 - Removed dependency ([`graphql@^16.2.0` ↗︎](https://www.npmjs.com/package/graphql/v/^16.2.0)) (from `dependencies`)
 - Added dependency ([`graphql@^15` ↗︎](https://www.npmjs.com/package/graphql/v/^15)) (to `peerDependencies`)
 - Added dependency ([`lodash@4.17.21` ↗︎](https://www.npmjs.com/package/lodash/v/4.17.21)) (to `peerDependencies`)
+- Added dependency ([`cross-undici-fetch@0.4.14` ↗︎](https://www.npmjs.com/package/cross-undici-fetch/v/0.4.14)) (to `peerDependencies`)
